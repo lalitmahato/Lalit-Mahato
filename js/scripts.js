@@ -44,15 +44,12 @@ function calculate_grand_total(){
     var samosa_price = document.getElementById("samosa-price");
     var samosa = document.getElementById("samosa-quantity");
     var samosa_total = document.getElementById("samosa-total");
-
     var tea_price = document.getElementById("tea-price");
     var tea = document.getElementById("tea-quantity");
     var tea_total = document.getElementById("tea-total");
-
     var total = document.getElementById("total-price");
     var vat = document.getElementById("vat");
     var tip = document.getElementById('tip');
-
     var grand_total = document.getElementById("grand-total");
 
     var samosa_price_value = parseInt(samosa_price.value);
