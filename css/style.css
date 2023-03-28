@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+}
+
+
+.container{
+    margin: auto;
+    width: 450px;
+    background: aqua;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container h1{
+    text-align: center;
+    color: red;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+}
+.form-content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    padding: 2px 5px;
+}
+
+.quantity{
+    background: #fff;
+    padding: 2px 5px;
+}
+
+.price{
+    background: #fff;
+    padding: 2px 5px;
+}
+
+.form-content input{
+    padding: 2px 5px;
+}
+
+.total{
+    font-weight: 700;
+}
+.calculate-grand-total{
+    padding: 2px;
+}
