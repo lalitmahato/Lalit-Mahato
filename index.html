@@ -17,17 +17,17 @@
             <h2>Samosa</h2>
             <div class="form-content">
                 <label>Price:</label>
-                <input type="number" min="0">
+                <input type="number" min="0" value="0" id="samosa-price">
             </div>
             <div class="form-content">
                 <label>Quantity:</label>
-                <button class="btn">+</button>
-                <span class="quantity">0</span>
-                <button class="btn">-</button>
+                <button class="btn" id="add-samosa-quantity">+</button>
+                <span class="quantity" id="samosa-quantity">0</span>
+                <button class="btn" id="remove-samosa-quantity">-</button>
             </div>
             <div class="form-content">
                 <label class="total">Total: </label>
-                <span>0</span>
+                <span id="samosa-total">0</span>
             </div>
         </div>
         <hr>
@@ -35,41 +35,43 @@
             <h2>Tea</h2>
             <div class="form-content">
                 <label>Price:</label>
-                <input type="number" min="0">
+                <input type="number" min="0" value="0" id="tea-price">
             </div>
             <div class="form-content">
                 <label>Quantity:</label>
-                <button class="btn">+</button>
-                <span class="quantity">0</span>
-                <button class="btn">-</button>
+                <button class="btn" id="add-tea-quantity">+</button>
+                <span class="quantity" id="tea-quantity">0</span>
+                <button class="btn" id="remove-tea-quantity">-</button>
             </div>
             <div class="form-content">
                 <label class="total">Total: </label>
-                <span>0</span>
+                <span id="tea-total">0</span>
             </div>
         </div>
         <hr>
         <div class="content">
             <div class="form-content">
-                <label class="total">Total price: <span>0</span></label>
+                <label class="total" >Total price: <span id="total-price">0</span></label>
             </div>
             <div class="form-content">
-                <label>Vat (13%): <span class="price">0</span></label>
+                <label>Vat (13%): <span class="price" id="vat">0</span></label>
             </div>
             <div class="form-content">
-                <label>Tip(10%): <span class="price">0</span></label>
+                <label>Tip(10%): <span class="price" id="tip">0</span></label>
             </div>
         </div>
         <hr>
         <div class="content">
             <div class="form-content">
                 <label class="total">Grand Total: </label>
-                <span>0</span>
+                <span id="grand-total">0</span>
             </div>
             <div class="form-content">
-                <button class="calculate-grand-total">Calculate grand total</button>
+                <button class="calculate-grand-total" id="calculate-grand-total">Calculate grand total</button>
             </div>
         </div>
     </div>
+</div>
+<script src="js/scripts.js"></script>
 </body>
 </html>
